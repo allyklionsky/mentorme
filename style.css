@@ -1,0 +1,107 @@
+@font-face {
+  font-family: RockoFLF;
+  src: url(fonts/RockoFLF.ttf);
+}
+
+@font-face {
+  font-family: RockoFLF-Bold;
+  src: url(fonts/RockoFLF-Bold.ttf);
+}
+
+
+@font-face {
+  font-family: GraphikRegular;
+  src: url(fonts/GraphikRegular.otf);
+}
+
+
+
+body {
+  background-color: #0FCF73;
+  font-family: RockoFLF;
+  font-size: 18px;
+}
+
+
+button {
+  padding: 10px;
+  background-color: white;
+  color: #0FCF73;
+  border-radius: 8px;
+  border: none;
+  font-family: RockoFLF-Bold;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  width: 150px;
+}
+
+button:hover {
+  opacity: 90%;
+}
+
+hr {
+  border:none;
+  border-bottom: .5px solid #79E7A1;
+  padding-top: 0.5%;
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-size: 55px;
+}
+h2 {
+
+}
+h3 {
+  font-family: GraphikRegular;
+  letter-spacing: 0.5px;
+  color: #E4FFCE;
+  font-size: 30px;
+  line-height: 1.5;
+}
+.header {
+  padding: 2% 5%;
+  color: white;
+  margin: 100 auto;
+  align-items: center;
+}
+
+.logo {
+  width: 14%;
+}
+
+.nav {
+  float: right;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 10px;
+  color: #E4FFCE;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.nav-item:hover {
+  color:white;
+}
+
+
+.left {
+  width: 35%;
+  float: left;
+  padding: 6% 12% 6% 0%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  padding-top: 4%;
+}
+
+.mentor {
+  width: 500px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
