@@ -112,12 +112,9 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   border-radius: 28px;
-  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.10);
 }
 
 .mentor:hover {
-  border-radius: 28px;
-  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .body-button {
