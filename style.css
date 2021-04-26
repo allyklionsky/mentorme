@@ -135,14 +135,19 @@ h3 {
   width: 100%;
   left: 0 !important;
   align-items: center;
+  padding: 20px;
 }
 
 .college {
   border-radius: 4px;
-  background-color: white;
+  background-color: #F5F5F5;
   float: left;
-  margin-left: 20px;
+  color: #0FCF73;
+  letter-spacing: 1px;
+  margin-left: 10px;
   padding: 10px;
+  border-radius: 10px;
+
 }
 
 .college img {
