@@ -8,6 +8,10 @@
   src: url(fonts/RockoFLF-Bold.ttf);
 }
 
+@font-face {
+  font-family: GraphikLight;
+  src: url(fonts/GraphikLight.otf);
+}
 
 @font-face {
   font-family: GraphikRegular;
@@ -15,13 +19,11 @@
 }
 
 
-
 body {
   background-color: #0FCF73;
   font-family: RockoFLF;
   font-size: 18px;
 }
-
 
 button {
   padding: 10px;
@@ -36,22 +38,24 @@ button {
 }
 
 button:hover {
-  opacity: 90%;
+  opacity: 100%;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-hr {
-  border:none;
-  border-bottom: .5px solid #79E7A1;
-  padding-top: 0.5%;
+.typeform-share:hover {
+  opacity: 100%;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
   letter-spacing: 2px;
-  font-size: 55px;
+  font-size: 60px;
 }
+
 h2 {
 
 }
+
 h3 {
   font-family: GraphikRegular;
   letter-spacing: 0.5px;
@@ -59,20 +63,23 @@ h3 {
   font-size: 30px;
   line-height: 1.5;
 }
+
 .header {
-  padding: 2% 5%;
+  padding: 1.5% 5% 1.5% 5%;
   color: white;
   margin: 100 auto;
   align-items: center;
+  border-bottom: .5px solid #79E7A1;
 }
 
 .logo {
-  width: 14%;
+  width: 18%;
 }
 
 .nav {
   float: right;
   align-items: center;
+  padding-top: .5%;
 }
 
 .nav-item {
@@ -86,22 +93,144 @@ h3 {
   color:white;
 }
 
-
 .left {
-  width: 35%;
+  width: 40%;
   float: left;
-  padding: 6% 12% 6% 0%;
+  padding: 8% 0% 6% 0%;
+  padding-left: 8%;
 }
 
 .right {
-  float: right;
-  width: 50%;
+  float: left;
+  width: 45%;
   padding-top: 4%;
 }
 
 .mentor {
   width: 500px;
   display: block;
-    margin-left: auto;
-    margin-right: auto
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 28px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.10);
+}
+
+.mentor:hover {
+  border-radius: 28px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.body-button {
+  width: 240px;
+  font-size: 22px;
+  height: 60px;
+  float: left;
+  margin-right: 10px;
+}
+
+.colleges {
+  position: absolute;
+  bottom: 0 !important;
+  background-color: white;
+  width: 100%;
+  left: 0 !important;
+  align-items: center;
+}
+
+.college {
+  border-radius: 4px;
+  background-color: white;
+  float: left;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.college img {
+  height: 50px;
+}
+
+#mentor-signup {
+  background-color: #E4FFCE;
+}
+#slideshow {
+  margin: 50px auto;
+  position: relative;
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+.survey {
+  text-align: center;
+  height: 32%;
+  margin: a auto;
+  align-items: center;
+  width: 54%;
+  left: 0 !important;
+  position: absolute;
+  padding: 10% 24%;
+}
+
+.survey p {
+  font-family: GraphikRegular;
+  font-size: 28px;
+  line-height: 1.5;
+  color: white;
+  opacity: 80%;
+
+}
+
+.survey img {
+  height: 150px;
+}
+
+.survey h1 {
+  color: white;
+  font-size: 48px;
+  margin-bottom: -10px;
+}
+
+.blob {
+  height: 350px;
+  width: 350px;
+  filter: blur(100px);
+  position: absolute;
+  border-radius: 100%;
+  opacity: 50%;
+
+}
+
+#one {
+  background-color: #A9FF92;
+  bottom:-200px;
+  left: -100px;
+  z-index: 10;
+  opacity: 50%;
+
+}
+
+#three {
+  background-color: #57FFF5;
+  top:200px;
+  right: -250px;
+}
+
+#two {
+  background-color: #57FFF5;
+  bottom: -200px;
+  left: -100px;
+}
+
+#four {
+  background-color: #A9FF92;
+  top: 100px;
+  right: -100px;
+  z-index: 10;
+  opacity: 70%;
 }
